@@ -1,0 +1,38 @@
+.textSetting{
+    margin-top: 120px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.paraSetting1{
+    font-size: 30px;
+    color: rgba(248, 242, 242, 0.877);
+}
+.paraSetting2{
+    font-size: 14px;
+    color: rgba(248, 242, 242, 0.877);
+}
+/* Media Queries */
+@media(min-width:768px) and (max-width:991px){
+    
+        }
+    
+    @media(min-width:360px)  and  (max-width:479px){
+        .textSetting{
+            font-size: 32px;
+        }
+        .paraSetting1{
+            font-size: 28px;
+        }
+    }
+    
+    @media(max-width:320px){
+        .textSetting{
+            font-size: 30px;
+        }
+        .paraSetting1{
+            font-size: 26px;
+        }
+        .paraSetting2{
+            font-size: 12px;
+        }
+    }

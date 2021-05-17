@@ -1,0 +1,32 @@
+.imgSetting{
+    margin-top: 90px;
+    float: right;
+}
+
+/* Media Queries */
+@media(min-width:768px) and (max-width:991px){
+.imgSetting{
+margin-top: 320px;
+height: 250px;
+width: 350px;
+float: none;
+}
+    }
+
+@media(min-width:360px)  and  (max-width:479px){
+    .imgSetting{
+        margin-top: 0px;
+        height: 240px;
+        width: 340px;
+        float: none;
+        }
+}
+
+@media(max-width:320px){
+    .imgSetting{
+        margin-top:36px;
+        height: 180px;
+        width: 280px;
+        float: none;
+        }
+}

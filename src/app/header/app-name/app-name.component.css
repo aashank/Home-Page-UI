@@ -1,0 +1,32 @@
+.appName{
+width: 140px;
+height: 40px;
+background-color: #333131; 
+
+
+}
+.nameAdjust{
+    margin-bottom: 10px;
+}
+
+/* Media Query */
+@media(min-width:992px){
+   
+}
+
+@media(min-width:768px) and (max-width:991px){
+
+}
+
+@media(min-width:575px) and (max-width:767px){
+
+}
+@media(min-width:480px) and (max-width:574px){
+
+}
+@media(max-width:479px){
+   .appName{
+       width: 40px;
+       height: 40px;
+   }
+}

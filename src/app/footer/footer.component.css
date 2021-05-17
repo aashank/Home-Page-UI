@@ -1,0 +1,24 @@
+.bgFooter{
+    background-color: #333131;
+    margin-top: 160px;
+}
+
+/* Media Query */
+
+@media(min-width:768px) and (max-width:991px){
+   .bgFooter{
+    margin-top: 520px;
+   }
+}
+
+@media(min-width:360px)  and  (max-width:479px){
+    .bgFooter{
+        margin-top: 430px;
+       }
+}
+
+@media(max-width:320px){
+    .bgFooter{
+        margin-top: 380px;
+       }
+}

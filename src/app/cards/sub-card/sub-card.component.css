@@ -1,0 +1,56 @@
+.card{
+    border: 11px solid rgb(245, 242, 242);
+    width: 300px;
+    height: 170px;
+}
+
+.card-text{
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  line-height: 85px;
+}
+
+/* Media Query */
+
+
+@media(min-width:768px) and (max-width:991px){
+    .card{
+        margin-left: 14px;
+    }
+ }
+ 
+ @media(min-width:360px)  and  (max-width:479px){
+    .card{
+        width: 300px;
+        height: 70px;
+        border: none;
+        border-radius: 15px;
+        margin-left: 15px;
+    }
+    .card-text{
+        line-height: 35px;
+      }
+   
+      .rowAdjustCenter{
+          margin-left: 15px;
+      }
+      .card4{
+        display: block;
+        width: 300px;
+        height: 70px;
+        border-radius: 15px;
+      }
+ }
+ 
+ @media(max-width:320px){
+    .card{
+        width: 300px;
+        height: 70px;
+        border: none;
+        border-radius: 15px;
+    }
+    .card-text{
+        line-height: 35px;
+      }
+ }
